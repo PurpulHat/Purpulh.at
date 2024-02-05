@@ -7,7 +7,7 @@ paginate = "7"
 
 [params]
 fancyTitle = "PurpulHat" # title for frontpage, may include image
-description = 'Hacker Ethique<br /><br />Sensibilisations<br />Web Hacking<br />Bug Bounty'
+description = 'Hacker Ethique <br /><br />Sensibilisations <br />Web Hacking <br />Bug Bounty'
 # startbuttonText = "Blog"
 # startbuttonLink = "/posts/test.md"
 body_is_markdown = true

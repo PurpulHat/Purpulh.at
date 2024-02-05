@@ -1,0 +1,4 @@
+baseURL = 'https://purpulh.at/'
+languageCode = 'fr'
+title = "PurpulHat - Blog d'un Hacker Éthique"
+theme = 'spectral'

@@ -1,0 +1,132 @@
+baseURL = "/"
+title = "PurpulHat"
+languageCode = "fr"
+defaultContentLanguage = "fr"
+paginate = "7"
+#googleAnalytics = "G-XXXXXXXXXX"
+
+[params]
+fancyTitle = "PurpulHat" # title for frontpage, may include image
+description = 'Hacker Ethique<br /><br />Sensibilisations<br />Web Hacking<br />Bug Bounty'
+# startbuttonText = "Blog"
+# startbuttonLink = "/posts/test.md"
+body_is_markdown = true
+#custom_css = "foo.css"
+#custom_sass = "bar.scss"
+#images = ["path_to_social_image_for_link_previews.jpg"]
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.60.0"
+
+
+[[params.menu.main]]
+url = '/'
+title = "/Home"
+
+[[params.menu.main]]
+url = '/'
+title = "~/Blog (Arrive bientôt !)"
+# 
+# [[params.menu.main]]
+# url = '/projets/'
+# title = "~/Projets"
+
+[params.one]
+enable = true
+title = "La CyberSécurité n'est plus un choix"
+body = '''
+Utilisons nos armes afin de renforcer nos défences. La meilleur défense est l'attaque.
+'''
+
+[[params.one.icon]]
+icon = "fa-star"
+style = "1"
+label = "Lorem"
+
+[[params.one.icon]]
+icon = "fa-star"
+style = "1"
+label = "Lorem"
+
+[[params.one.icon]]
+icon = "fa-star"
+style = "1"
+label = "Lorem"
+
+[params.two]
+enable = true
+
+[[params.two.section]]
+img = "img/pic01.jpg"
+img_alt = "blurry background: white/grey"
+title = 'Cybercriminels et Hacker Ethique,<br />un sérieux déséquilibre.'
+body = "Le nombre de cybercriminels monte drastiquement pendant que les hackers éthiques peinent encore à progresser. Il est temps d'inverser la courbe."
+
+[[params.two.section]]
+img = "img/pic02.jpg"
+title = "Un métier de l'ombre qui sauve des vies"
+body = "La sécurité des Hôpitaux, Associations, Opérateurs d'Importance Vitale est aujourd'hui un incontournable."
+
+[[params.two.section]]
+img = "img/pic03.jpg"
+title = "Arrêtons d'être un acteur de la peur"
+body = """
+Lors de nos sensibilisations, nous parvenons davantage à renforcer les inquiétudes plutôt qu'à leur donner les clés d'une bonne protection.
+Soyons d'abord pédagogues afin de les aider à renforcer leurs sécurités.
+"""
+
+[params.three]
+enable = true
+title = "Nous avons un rôle à jouer, surtout en dehors des écrans"
+body = '''
+Hacker Ethique, nous avons des règles de l'art :
+'''
+
+[[params.three.feature]]
+icon = "fa-paper-plane"
+title = "Rapport facile à lire"
+body = "A chaque nouvelle découverte d'une faille, il est important d'écrire un rapport qui soit compréhensible pour tous, même pour les plus néophytes."
+
+[[params.three.feature]]
+icon = "solid fa-laptop"
+title = "Tous s'apprend"
+body = "Ne laissons jamais de côté de nouvelles informations. Tout nous aidera à gagner en compétence."
+
+[[params.three.feature]]
+icon = "solid fa-code"
+title = "Partageons !"
+body = "Devenons l'élite sans élitisme. Partagez vos connaissances pour laisser grandir tous les nouveaux néophytes."
+
+[[params.three.feature]]
+icon = "solid fa-headphones-alt"
+title = "Ecoutons d'abord"
+body = "Nous avons toujours bien plus à apprendre d'un sujet que ce que nous avons à dire."
+
+[[params.three.feature]]
+icon = "fa-heart"
+title = "Soyons himble"
+body = "Ayons conscience que ce qui est évident pour nous ne l'est pas pour tout le monde."
+
+[[params.three.feature]]
+icon = "fa-flag"
+title = "L'expert n'éxiste pas"
+body = "Les sujets d'informatique et de cybersécurité sont trop nombreux pour être un expert en cybersécurité."
+
+[params.contact]
+enable = false
+title = "Me contacter"
+body = "C'est avec joie que je vous lirais !"
+email = "contact@purpulh.at"
+subject = "New Submission!"
+formspree_form_id = "example_invalid"
+
+[params.social]
+twitter = ""
+mastodon = ""
+github = ""
+facebook = ""
+youtube = ""
+instagram = ""
+dribble = ""
